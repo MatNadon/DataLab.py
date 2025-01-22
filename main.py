@@ -2,6 +2,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 import pandas as pd
 
+
 class Data():
     def __init__(self, path):
         #ouvre le fichier d'intéret
@@ -50,7 +51,7 @@ class Data():
 
     def plotData(self, data, titre, titreX, titreY):
         '''
-        Créer un tableau de la série désiré
+        Créer un tableau de la série désirée
         '''
         X, Y = self.arrangeData()
         plt.plot(X, data)
