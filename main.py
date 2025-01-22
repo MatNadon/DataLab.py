@@ -81,4 +81,3 @@ if __name__ == '__main__':
     Insérez votre code ici pour extraire les données!
     '''
 
-    l1 = Data()
