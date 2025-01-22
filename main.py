@@ -77,7 +77,7 @@ class Data():
 # donnée.toExcel('Nom de fichier')
 # X, Y = donnée.arrangeData()
 # plt.plot(X, Y[0])
-# donnée.plotData(Y[0], 'Axe des X', 'Axe des Y')
+# donnée.plotData(donnée[0], 'Axe des X', 'Axe des Y')
 
 if __name__ == '__main__':
     '''
