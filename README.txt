@@ -8,7 +8,7 @@ Pour l'utiliser, il faut simplement initialisé un objet Data avec le chemin d'a
 Exemple de chemin d'accès:
 "C:/Users/nadon/Downloads\données 2025-01-21-4.lvm"
 
-Attention aux \ qui peuvent être considéré par Python comme un modificateur de string. Remplacer le caractère par un / si celui-ci créer des soucis.
+Attention aux \ qui peuvent être considéré par Python comme un opérateur de string. Remplacer le caractère par un / si celui-ci créer des soucis.
 
 La classe organise les données dans le bon ordre de mesures (Channels). Je vous invite à print() un objet de la classe pour les examiner.
 Pour sélectionner une certaine série de données, il suffit d'utiliser un indice: donnée[0], donnée[1], etc.
