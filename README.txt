@@ -1,4 +1,4 @@
-S'IL Y A DES BUGS, INFORMEZ MOI. JE VAIS ESSAYER DE LES RÉSOUDRE ---> (Matis Nadon, manad277@ulaval.ca)
+S'IL Y A DES BUGS, INFORMEZ MOI. JE VAIS ESSAYER DE LES RÉSOUDRE ---> (Matis Nadon, manad277@ulaval.ca) 
 
 Veuillez vous assurez d'avoir importé tous les Packages nécessaire incluant 'openpyxl' (pour EXCEL)
 
