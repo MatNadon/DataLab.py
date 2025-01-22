@@ -69,10 +69,10 @@ class Data():
 
 
 '''Exemple d'utilisation:'''
-donnée = Data("C:/Users/nadon/Downloads\données 2025-01-21-1.lvm")
-print(donnée)
+# donnée = Data("C:/Users/nadon/Downloads\données 2025-01-21-1.lvm")
+# print(donnée)
 # donnée.toExcel('Nom de fichier')
-# X, Y = arrangeData()
+# X, Y = donnée.arrangeData()
 #donnée.plotData()
 
 if __name__ == '__main__':
