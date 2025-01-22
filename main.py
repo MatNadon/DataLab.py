@@ -73,6 +73,7 @@ class Data():
 # print(donnée)
 # donnée.toExcel('Nom de fichier')
 # X, Y = donnée.arrangeData()
+# plt.plot(X, Y[0])
 # donnée.plotData()
 
 if __name__ == '__main__':
