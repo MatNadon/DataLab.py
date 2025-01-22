@@ -73,10 +73,11 @@ class Data():
 # print(donnée)
 # donnée.toExcel('Nom de fichier')
 # X, Y = donnée.arrangeData()
-#donnée.plotData()
+# donnée.plotData()
 
 if __name__ == '__main__':
     '''
     Insérez votre code ici pour extraire les données!
     '''
 
+    l1 = Data()
