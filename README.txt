@@ -28,4 +28,4 @@ toExcel(titre):
 Pour ceux qui préfère faire leur graph dans Excel, vous n'êtes pas oublié! Vous pouvez utiliser cette méthode qui va créer un fichier excel avec les données dans le meme répertoire que le code.
 
 __méthode__():
-Toutes les méthodes qui, selon moi, sont intéressantes pour cette classe ont été implémenté. Vous pouvez donc modifier, ajouté et supprimé des données!
+Toutes les méthodes qui, selon moi, sont intéressantes pour cette classe ont été implémenté. Vous pouvez donc modifier, ajouter et supprimer des données!
