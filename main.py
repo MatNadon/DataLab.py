@@ -48,12 +48,15 @@ class Data():
         X = np.linspace(0, len(self.data[0])-1, len(self.data[0]))
         return X, self.data
 
-    def plotData(self, idx = 0):
+    def plotData(self, data, titre, titreX, titreY):
         '''
         Créer un tableau de la série désiré
         '''
         X, Y = self.arrangeData()
-        plt.plot(X, Y[idx])
+        plt.plot(X, data)
+        plt.title(titre)
+        plt.xlabel(titreX)
+        plt.ylabel(titreY)
         plt.grid()
         plt.show()
 
@@ -74,10 +77,9 @@ class Data():
 # donnée.toExcel('Nom de fichier')
 # X, Y = donnée.arrangeData()
 # plt.plot(X, Y[0])
-# donnée.plotData()
+# donnée.plotData(Y[0], 'Axe des X', 'Axe des Y')
 
 if __name__ == '__main__':
     '''
     Insérez votre code ici pour extraire les données!
     '''
-

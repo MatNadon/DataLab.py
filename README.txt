@@ -18,8 +18,11 @@ Pour mieux utiliser le code, vous rapidement lire les différentes méthodes. C'
 arrangeData():
 Fonction qui permet de créer les arrays nécessaire pour faire un graphique. À utiliser si vous voulez faire vos propres style de graph. Voir https://matplotlib.org/stable/users/index
 
-plotData(idx):
-    -idx est l'indice de la série dans l'objet (donnée[1]). Il est par défaut à 0.
+plotData(data, titre, titreX, titreY):
+    -data est la série que l'on veut mettre dans le graph
+    -titre est le titre tu tableau
+    -titreX est le titre de l'axe des X
+    -titreY est le titre de l'axe des Y 
 C'est une version extrêmement élémentaire pour 'Plot' un graphique. 
 Je vous conseille de le faire vous même dans le Main tout en bas, car chaque graphique à besoin de son propre style!
 
